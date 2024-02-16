@@ -7,7 +7,7 @@ const ResultCard = ({ result }: any) => {
       <div>Segment: {result?.segment?.text}</div>
       <div className="text-stone-400">
         Entity ID:{" "}
-        <a href={result.data.landingPageUrl} className="text-blue-400">
+        <a href={result.data.c_file.url} className="text-blue-400">
           {result.data.id}
         </a>
       </div>

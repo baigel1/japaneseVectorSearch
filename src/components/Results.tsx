@@ -2,7 +2,7 @@ import ResultCard from "./ResultCard";
 
 const Results = ({ results }: any) => {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 mx-24">
       {results.map((result: any, i: number) => {
         return (
           <ResultCard

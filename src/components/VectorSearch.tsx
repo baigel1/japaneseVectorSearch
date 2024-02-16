@@ -29,7 +29,7 @@ const VectorSearch = () => {
   }, [query]);
 
   return (
-    <div>
+    <div className="mx-16">
       <SearchBar />
       <Results results={results} />
     </div>
