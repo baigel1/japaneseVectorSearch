@@ -25,7 +25,12 @@ function App() {
   const searcher = provideHeadless(config);
   return (
     <SearchHeadlessProvider searcher={searcher}>
-      <VectorSearch />
+      <div className="flex flex-col w-full">
+        <div className="bg-red-400 p-12 flex justify-center items-center mb-8 text-4xl text-white">
+          Japanese Vector Search Demo
+        </div>
+        <VectorSearch />
+      </div>
     </SearchHeadlessProvider>
   );
 }
